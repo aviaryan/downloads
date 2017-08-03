@@ -26,4 +26,4 @@ alias dwnpush="cd ~/github/downloads; bash ./push.sh"
 
 ### Example links
 
-* Resume - http://aviaryan.in/downloads/resume.pdf
+* Resume - http://aviaryan.in/downloads/resume.pdf#zoom=140
