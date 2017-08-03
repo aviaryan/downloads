@@ -3,7 +3,7 @@
 # Use GitHub pages as a lite download hosting server
 
 # the max number of commits to keep after which version information is destroyed
-LIMIT=1
+LIMIT=30
 
 # run transforms
 source ./transformations.sh
