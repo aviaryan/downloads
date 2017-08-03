@@ -10,7 +10,6 @@ source ./transformations.sh
 
 # get commit count
 count=$(git rev-list --count HEAD)
-echo $count
 
 # new branch to overwrite when commit count more than limit
 if [ $count -gt $LIMIT ]; then
