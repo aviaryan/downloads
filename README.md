@@ -15,6 +15,15 @@ A simple POC to use GitHub Pages to serve static downloads.
 ```
 
 
+### Alias
+
+You can setup a global alias in `.bashrc` or `.bash_profile` to run the script from anywhere.
+
+```sh
+alias dwnpush="cd ~/github/downloads; bash ./push.sh"
+```
+
+
 ### Example links
 
 * Resume - http://aviaryan.in/downloads/resume.pdf
