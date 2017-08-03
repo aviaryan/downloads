@@ -21,9 +21,9 @@ git commit -m 'push'
 
 # overwrite branch
 if [ $count -gt $LIMIT ]; then
-	git branch -D master
-	git branch -m master
+	git branch -D gh-pages
+	git branch -m gh-pages
 fi
 
-git push -f origin master
+git push -f origin gh-pages
 git gc --aggressive --prune=all
