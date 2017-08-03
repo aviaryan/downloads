@@ -6,6 +6,10 @@
 LIMIT=30
 
 # run transforms
+if [ ! -f transformations.sh ]; then
+	echo "Transforms file not found. Are you running this in a different directory?"
+	exit 1
+fi
 source ./transformations.sh
 
 # get commit count
