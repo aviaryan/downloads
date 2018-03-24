@@ -21,7 +21,6 @@ You can setup a global alias in `.bashrc` or `.bash_profile` to run the script f
 
 ```sh
 alias dwnpush="cd ~/github/downloads; bash ./push.sh"
-alias dwnpush=`cdir=$(pwd); cd ~/github/downloads; bash ./push.sh; cd $cdir`
 ```
 
 
